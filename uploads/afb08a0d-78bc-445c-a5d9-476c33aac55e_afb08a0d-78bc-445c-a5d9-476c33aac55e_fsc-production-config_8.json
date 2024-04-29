@@ -1,0 +1,2614 @@
+{
+    "models": {},
+    "cell_type": {
+        "prep": {},
+        "audio": {},
+        "touch": {},
+        "camera": {},
+        "display": {},
+        "clearing": {
+            "excluded_tests": [
+                "wiredcharging"
+            ]
+        },
+        "cosmetic": {}
+    },
+    "test_overrides": {
+        "DISPLAY": {
+            "mconf": {
+                "display:grade_color": false,
+                "camera:type_hierarchy": {
+                    "SIDE": 1,
+                    "CENTER": 0,
+                    "UNKNOWN": 999,
+                    "DARK_PIXEL": 1,
+                    "DARK_REGION": 2,
+                    "BRIGHT_REGION": 0
+                },
+                "display:grade_defects": [
+                    "UNKNOWN",
+                    "BURN_IN",
+                    "LINES",
+                    "WHITE_DOTS",
+                    "HOT_PIXEL",
+                    "LIGHT_LEAK",
+                    "DARK_PIXEL",
+                    "DARK_REGION",
+                    "OTHER"
+                ],
+                "display:type_hierarchy": {
+                    "DOCK": 0,
+                    "EDGE": 7,
+                    "LINES": 0,
+                    "OTHER": 6,
+                    "BURN_IN": 8,
+                    "TOP_BAR": 1,
+                    "UNKNOWN": 999,
+                    "BAR_CONN": 5,
+                    "SIDE_BAR": 3,
+                    "HOT_PIXEL": 1,
+                    "BOTTOM_BAR": 2,
+                    "DARK_PIXEL": 4,
+                    "EDGE_PANEL": 4,
+                    "LIGHT_LEAK": 2,
+                    "WHITE_DOTS": 3,
+                    "DARK_REGION": 5
+                },
+                "display:grade_brightness": true,
+                "display:max_required_brightness": 250,
+                "display:min_required_brightness": 60,
+                "camera:max_defect_processing_num": 50,
+                "display:max_defect_processing_num": 100,
+                "camera:max_distortion_processing_num": 50
+            }
+        },
+        "COSMETIC": {
+            "A": {
+                "thresholds": {
+                    "A": {
+                        "damaged": {
+                            "crack": {},
+                            "missingpart": {}
+                        },
+                        "level 1": {
+                            "dent": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "nick": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "pindot": {
+                                "max_length": 0.8
+                            },
+                            "scratch": {
+                                "max_width": 0.1,
+                                "max_length": 5
+                            }
+                        },
+                        "level 2": {
+                            "dent": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "nick": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "pindot": {
+                                "max_length": 1
+                            },
+                            "scratch": {
+                                "max_width": 0.2,
+                                "max_length": 10
+                            }
+                        },
+                        "deep scratch": {
+                            "dent": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "nick": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "scratch": {
+                                "min_width": 0.0375,
+                                "min_length": 1.6,
+                                "min_contrast": 17,
+                                "min_area_pixel": 500
+                            }
+                        },
+                        "discoloration": {
+                            "discoloration": {}
+                        },
+                        "light scratch": {
+                            "dent": {},
+                            "nick": {},
+                            "pindot": {},
+                            "scratch": {},
+                            "grouppindot": {}
+                        }
+                    },
+                    "B": {
+                        "damaged": {
+                            "crack": {},
+                            "missingpart": {}
+                        },
+                        "level 1": {
+                            "dent": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "nick": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "pindot": {
+                                "max_length": 0.8
+                            },
+                            "scratch": {
+                                "max_width": 0.1,
+                                "max_length": 5
+                            }
+                        },
+                        "level 2": {
+                            "dent": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "nick": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "pindot": {
+                                "max_length": 1
+                            },
+                            "scratch": {
+                                "max_width": 0.2,
+                                "max_length": 10
+                            }
+                        },
+                        "deep scratch": {
+                            "dent": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "nick": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "scratch": {
+                                "min_width": 0.0375,
+                                "min_length": 1.6,
+                                "min_contrast": 17,
+                                "min_area_pixel": 500
+                            }
+                        },
+                        "discoloration": {
+                            "discoloration": {}
+                        },
+                        "light scratch": {
+                            "dent": {},
+                            "nick": {},
+                            "pindot": {},
+                            "scratch": {},
+                            "grouppindot": {}
+                        }
+                    },
+                    "AA": {
+                        "damaged": {
+                            "crack": {},
+                            "missingpart": {}
+                        },
+                        "level 1": {
+                            "dent": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "nick": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "pindot": {
+                                "max_length": 0.8
+                            },
+                            "scratch": {
+                                "max_width": 0.1,
+                                "max_length": 5
+                            }
+                        },
+                        "level 2": {
+                            "dent": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "nick": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "pindot": {
+                                "max_length": 1
+                            },
+                            "scratch": {
+                                "max_width": 0.2,
+                                "max_length": 10
+                            }
+                        },
+                        "deep scratch": {
+                            "dent": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "nick": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "scratch": {
+                                "min_width": 0.0375,
+                                "min_length": 1.6,
+                                "min_contrast": 17,
+                                "min_area_pixel": 500
+                            }
+                        },
+                        "discoloration": {
+                            "discoloration": {}
+                        },
+                        "light scratch": {
+                            "dent": {},
+                            "nick": {},
+                            "pindot": {},
+                            "scratch": {},
+                            "grouppindot": {}
+                        }
+                    }
+                },
+                "failure_reasons": {
+                    "L1-LCD Cosmetic Damage": {
+                        "code": "Cosmetics-16",
+                        "hierarchy": 1,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged",
+                                    "deep scratch",
+                                    "level 1",
+                                    "level 2",
+                                    "discoloration",
+                                    "light scratch"
+                                ],
+                                "surfaces": {
+                                    "AA": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "05-Bezel Cosmetic Failure": {
+                        "code": "Cosmetic-5",
+                        "hierarchy": 2,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged",
+                                    "deep scratch",
+                                    "level 2",
+                                    "discoloration",
+                                    "light scratch"
+                                ],
+                                "surfaces": {
+                                    "A": "all"
+                                }
+                            },
+                            {
+                                "num": 2,
+                                "defects": [
+                                    "level 1"
+                                ],
+                                "surfaces": {
+                                    "A": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "Back Cover Cosmetic Failure": {
+                        "code": "Cosmetic-2",
+                        "hierarchy": 3,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged",
+                                    "deep scratch",
+                                    "discoloration",
+                                    "light scratch"
+                                ],
+                                "surfaces": {
+                                    "B": "all"
+                                }
+                            },
+                            {
+                                "num": 3,
+                                "defects": [
+                                    "level 1"
+                                ],
+                                "surfaces": {
+                                    "B": "all"
+                                }
+                            },
+                            {
+                                "num": 1,
+                                "defects": [
+                                    "level 2"
+                                ],
+                                "surfaces": {
+                                    "B": "all"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "B": {
+                "thresholds": {
+                    "A": {
+                        "damaged": {
+                            "crack": {},
+                            "missingpart": {}
+                        },
+                        "level 1": {
+                            "dent": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "nick": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "pindot": {
+                                "max_length": 0.8
+                            },
+                            "scratch": {
+                                "max_width": 0.1,
+                                "max_length": 5
+                            }
+                        },
+                        "level 2": {
+                            "dent": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "nick": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "pindot": {
+                                "max_length": 1
+                            },
+                            "scratch": {
+                                "max_width": 0.2,
+                                "max_length": 10
+                            }
+                        },
+                        "deep scratch": {
+                            "dent": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "nick": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "scratch": {
+                                "min_width": 0.0375,
+                                "min_length": 1.6,
+                                "min_contrast": 17,
+                                "min_area_pixel": 500
+                            }
+                        },
+                        "discoloration": {
+                            "discoloration": {}
+                        },
+                        "light scratch": {
+                            "dent": {},
+                            "nick": {},
+                            "pindot": {},
+                            "scratch": {},
+                            "grouppindot": {}
+                        }
+                    },
+                    "B": {
+                        "damaged": {
+                            "crack": {},
+                            "missingpart": {}
+                        },
+                        "level 1": {
+                            "dent": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "nick": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "pindot": {
+                                "max_length": 0.8
+                            },
+                            "scratch": {
+                                "max_width": 0.1,
+                                "max_length": 5
+                            }
+                        },
+                        "level 2": {
+                            "dent": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "nick": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "pindot": {
+                                "max_length": 1
+                            },
+                            "scratch": {
+                                "max_width": 0.2,
+                                "max_length": 10
+                            }
+                        },
+                        "deep scratch": {
+                            "dent": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "nick": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "scratch": {
+                                "min_width": 0.0375,
+                                "min_length": 1.6,
+                                "min_contrast": 17,
+                                "min_area_pixel": 500
+                            }
+                        },
+                        "discoloration": {
+                            "discoloration": {}
+                        },
+                        "light scratch": {
+                            "dent": {},
+                            "nick": {},
+                            "pindot": {},
+                            "scratch": {},
+                            "grouppindot": {}
+                        }
+                    },
+                    "AA": {
+                        "damaged": {
+                            "crack": {},
+                            "missingpart": {}
+                        },
+                        "level 1": {
+                            "dent": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "nick": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "pindot": {
+                                "max_length": 0.8
+                            },
+                            "scratch": {
+                                "max_width": 0.1,
+                                "max_length": 5
+                            }
+                        },
+                        "level 2": {
+                            "dent": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "nick": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "pindot": {
+                                "max_length": 1
+                            },
+                            "scratch": {
+                                "max_width": 0.2,
+                                "max_length": 10
+                            }
+                        },
+                        "deep scratch": {
+                            "dent": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "nick": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "scratch": {
+                                "min_width": 0.0375,
+                                "min_length": 1.6,
+                                "min_contrast": 17,
+                                "min_area_pixel": 500
+                            }
+                        },
+                        "discoloration": {
+                            "discoloration": {}
+                        },
+                        "light scratch": {
+                            "dent": {},
+                            "nick": {},
+                            "pindot": {},
+                            "scratch": {},
+                            "grouppindot": {}
+                        }
+                    }
+                },
+                "failure_reasons": {
+                    "L1-LCD Cosmetic Damage": {
+                        "code": "Cosmetics-16",
+                        "hierarchy": 1,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged",
+                                    "deep scratch",
+                                    "discoloration"
+                                ],
+                                "surfaces": {
+                                    "AA": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "05-Bezel Cosmetic Failure": {
+                        "code": "Cosmetic-5",
+                        "hierarchy": 2,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged",
+                                    "deep scratch",
+                                    "discoloration"
+                                ],
+                                "surfaces": {
+                                    "A": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "Back Cover Cosmetic Failure": {
+                        "code": "Cosmetic-2",
+                        "hierarchy": 3,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged",
+                                    "deep scratch",
+                                    "discoloration"
+                                ],
+                                "surfaces": {
+                                    "B": "all"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "C": {
+                "thresholds": {
+                    "A": {
+                        "damaged": {
+                            "crack": {},
+                            "missingpart": {}
+                        },
+                        "level 1": {
+                            "dent": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "nick": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "pindot": {
+                                "max_length": 0.8
+                            },
+                            "scratch": {
+                                "max_width": 0.1,
+                                "max_length": 5
+                            }
+                        },
+                        "level 2": {
+                            "dent": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "nick": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "pindot": {
+                                "max_length": 1
+                            },
+                            "scratch": {
+                                "max_width": 0.2,
+                                "max_length": 10
+                            }
+                        },
+                        "deep scratch": {
+                            "dent": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "nick": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "scratch": {
+                                "min_width": 0.0375,
+                                "min_length": 1.6,
+                                "min_contrast": 17,
+                                "min_area_pixel": 500
+                            }
+                        },
+                        "discoloration": {
+                            "discoloration": {}
+                        },
+                        "light scratch": {
+                            "dent": {},
+                            "nick": {},
+                            "pindot": {},
+                            "scratch": {},
+                            "grouppindot": {}
+                        }
+                    },
+                    "B": {
+                        "damaged": {
+                            "crack": {},
+                            "missingpart": {}
+                        },
+                        "level 1": {
+                            "dent": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "nick": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "pindot": {
+                                "max_length": 0.8
+                            },
+                            "scratch": {
+                                "max_width": 0.1,
+                                "max_length": 5
+                            }
+                        },
+                        "level 2": {
+                            "dent": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "nick": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "pindot": {
+                                "max_length": 1
+                            },
+                            "scratch": {
+                                "max_width": 0.2,
+                                "max_length": 10
+                            }
+                        },
+                        "deep scratch": {
+                            "dent": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "nick": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "scratch": {
+                                "min_width": 0.0375,
+                                "min_length": 1.6,
+                                "min_contrast": 17,
+                                "min_area_pixel": 500
+                            }
+                        },
+                        "discoloration": {
+                            "discoloration": {}
+                        },
+                        "light scratch": {
+                            "dent": {},
+                            "nick": {},
+                            "pindot": {},
+                            "scratch": {},
+                            "grouppindot": {}
+                        }
+                    },
+                    "AA": {
+                        "damaged": {
+                            "crack": {},
+                            "missingpart": {}
+                        },
+                        "level 1": {
+                            "dent": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "nick": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "pindot": {
+                                "max_length": 0.8
+                            },
+                            "scratch": {
+                                "max_width": 0.1,
+                                "max_length": 5
+                            }
+                        },
+                        "level 2": {
+                            "dent": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "nick": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "pindot": {
+                                "max_length": 1
+                            },
+                            "scratch": {
+                                "max_width": 0.2,
+                                "max_length": 10
+                            }
+                        },
+                        "deep scratch": {
+                            "dent": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "nick": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "scratch": {
+                                "min_width": 0.0375,
+                                "min_length": 1.6,
+                                "min_contrast": 17,
+                                "min_area_pixel": 500
+                            }
+                        },
+                        "discoloration": {
+                            "discoloration": {}
+                        },
+                        "light scratch": {
+                            "dent": {},
+                            "nick": {},
+                            "pindot": {},
+                            "scratch": {},
+                            "grouppindot": {}
+                        }
+                    }
+                },
+                "failure_reasons": {
+                    "L1-LCD Cosmetic Damage": {
+                        "code": "Cosmetics-16",
+                        "hierarchy": 1,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged"
+                                ],
+                                "surfaces": {
+                                    "AA": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "05-Bezel Cosmetic Failure": {
+                        "code": "Cosmetic-5",
+                        "hierarchy": 2,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged"
+                                ],
+                                "surfaces": {
+                                    "A": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "Back Cover Cosmetic Failure": {
+                        "code": "Cosmetic-2",
+                        "hierarchy": 3,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged"
+                                ],
+                                "surfaces": {
+                                    "B": "all"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "D": {},
+            "BP": {
+                "thresholds": {
+                    "A": {
+                        "major": {
+                            "dent": {
+                                "min_width": 0.8,
+                                "min_length": 1,
+                                "min_contrast": 16,
+                                "min_area_pixel": 800
+                            },
+                            "nick": {
+                                "min_width": 0.8,
+                                "min_length": 1,
+                                "min_contrast": 16,
+                                "min_area_pixel": 800
+                            },
+                            "scratch": {
+                                "min_width": 0.3,
+                                "min_length": 1,
+                                "min_contrast": 99,
+                                "min_area_pixel": 600
+                            }
+                        },
+                        "minor": {
+                            "dent": {},
+                            "nick": {},
+                            "pindot": {},
+                            "scratch": {},
+                            "grouppindot": {},
+                            "discoloration": {},
+                            "differentscreen": {}
+                        },
+                        "damaged": {
+                            "crack": {},
+                            "missingpart": {}
+                        },
+                        "deep scratch": {
+                            "dent": {
+                                "min_width": 0.0375,
+                                "min_length": 2,
+                                "min_contrast": 18,
+                                "min_area_pixel": 600
+                            },
+                            "nick": {
+                                "min_width": 0.0375,
+                                "min_length": 2,
+                                "min_contrast": 18,
+                                "min_area_pixel": 600
+                            },
+                            "scratch": {
+                                "min_width": 0.0375,
+                                "min_length": 2,
+                                "min_contrast": 18,
+                                "min_area_pixel": 600
+                            }
+                        }
+                    },
+                    "B": {
+                        "major": {
+                            "dent": {
+                                "min_width": 0.8,
+                                "min_length": 1,
+                                "min_contrast": 16,
+                                "min_area_pixel": 800
+                            },
+                            "nick": {
+                                "min_width": 0.8,
+                                "min_length": 1,
+                                "min_contrast": 16,
+                                "min_area_pixel": 800
+                            },
+                            "scratch": {
+                                "min_width": 0.8,
+                                "min_length": 1,
+                                "min_contrast": 16,
+                                "min_area_pixel": 800
+                            }
+                        },
+                        "minor": {
+                            "dent": {},
+                            "nick": {},
+                            "pindot": {},
+                            "scratch": {},
+                            "grouppindot": {},
+                            "differentscreen": {}
+                        },
+                        "damaged": {
+                            "crack": {},
+                            "missingpart": {}
+                        },
+                        "deep scratch": {
+                            "dent": {
+                                "min_width": 0.0375,
+                                "min_length": 2,
+                                "min_contrast": 22,
+                                "min_area_pixel": 600
+                            },
+                            "nick": {
+                                "min_width": 0.0375,
+                                "min_length": 2,
+                                "min_contrast": 22,
+                                "min_area_pixel": 600
+                            },
+                            "scratch": {
+                                "min_width": 0.0375,
+                                "min_length": 2,
+                                "min_contrast": 22,
+                                "min_area_pixel": 600
+                            }
+                        },
+                        "discoloration": {
+                            "discoloration": {}
+                        }
+                    },
+                    "C": {
+                        "major": {
+                            "dent": {
+                                "max_width": 1,
+                                "max_length": 20
+                            },
+                            "nick": {
+                                "max_width": 1,
+                                "max_length": 20
+                            },
+                            "pindot": {
+                                "max_area": 2
+                            },
+                            "scratch": {
+                                "max_width": 1,
+                                "max_length": 20
+                            }
+                        },
+                        "minor": {
+                            "dent": {
+                                "max_width": 0.8,
+                                "max_length": 20
+                            },
+                            "nick": {
+                                "max_width": 0.8,
+                                "max_length": 20
+                            },
+                            "scratch": {
+                                "max_width": 0.8,
+                                "max_length": 20
+                            }
+                        },
+                        "damaged": {
+                            "crack": {},
+                            "missingpart": {}
+                        },
+                        "discoloration": {
+                            "discoloration": {}
+                        }
+                    },
+                    "D": {
+                        "major": {
+                            "dent": {
+                                "max_width": 1,
+                                "max_length": 20
+                            },
+                            "nick": {
+                                "max_width": 1,
+                                "max_length": 20
+                            },
+                            "pindot": {
+                                "max_area": 2
+                            },
+                            "scratch": {
+                                "max_width": 1,
+                                "max_length": 20
+                            }
+                        },
+                        "minor": {
+                            "dent": {
+                                "max_width": 0.8,
+                                "max_length": 20
+                            },
+                            "nick": {
+                                "max_width": 0.8,
+                                "max_length": 20
+                            },
+                            "scratch": {
+                                "max_width": 0.8,
+                                "max_length": 20
+                            }
+                        },
+                        "damaged": {
+                            "crack": {},
+                            "missingpart": {}
+                        },
+                        "discoloration": {
+                            "discoloration": {}
+                        }
+                    },
+                    "AA": {
+                        "major": {
+                            "dent": {
+                                "min_width": 0.9,
+                                "min_length": 1,
+                                "min_contrast": 16,
+                                "min_area_pixel": 800
+                            },
+                            "nick": {
+                                "min_width": 0.8,
+                                "min_length": 1,
+                                "min_contrast": 16,
+                                "min_area_pixel": 800
+                            },
+                            "scratch": {
+                                "min_width": 0.3,
+                                "min_length": 1,
+                                "min_contrast": 99,
+                                "min_area_pixel": 630
+                            }
+                        },
+                        "minor": {
+                            "dent": {},
+                            "nick": {},
+                            "pindot": {},
+                            "scratch": {},
+                            "grouppindot": {},
+                            "discoloration": {},
+                            "differentscreen": {}
+                        },
+                        "damaged": {
+                            "crack": {},
+                            "missingpart": {}
+                        },
+                        "deep scratch": {
+                            "dent": {
+                                "min_width": 0.15,
+                                "min_length": 1.6,
+                                "min_contrast": 21,
+                                "min_area_pixel": 500
+                            },
+                            "nick": {
+                                "min_width": 0.15,
+                                "min_length": 1.6,
+                                "min_contrast": 21,
+                                "min_area_pixel": 500
+                            },
+                            "scratch": {
+                                "min_width": 0.4,
+                                "min_length": 1.6,
+                                "min_contrast": 21.5,
+                                "min_area_pixel": 700
+                            }
+                        }
+                    }
+                },
+                "failure_reasons": {
+                    "L1-LCD Cracked": {
+                        "code": "Cosmetic-17",
+                        "hierarchy": 5,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged"
+                                ],
+                                "surfaces": {
+                                    "A": [
+                                        0
+                                    ],
+                                    "AA": [
+                                        0
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "L1-Screw Wrong": {
+                        "code": "Cosmetic-26",
+                        "hierarchy": 44,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "discoloration"
+                                ],
+                                "surfaces": {
+                                    "D": [
+                                        12
+                                    ]
+                                }
+                            },
+                            {
+                                "num": 12,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration",
+                                    "minor",
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "D": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "L1-Screw Missing": {
+                        "code": "Cosmetic-25",
+                        "hierarchy": 42,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged"
+                                ],
+                                "surfaces": {
+                                    "C": [
+                                        12
+                                    ]
+                                }
+                            },
+                            {
+                                "num": 12,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration",
+                                    "minor",
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "C": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "Home Button Cosmetic": {
+                        "code": "Cosmetic-15",
+                        "hierarchy": 9,
+                        "failure_reason": [
+                            {
+                                "num": 2,
+                                "defects": [
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "D": [
+                                        0
+                                    ]
+                                }
+                            },
+                            {
+                                "num": 12,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration",
+                                    "minor",
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "D": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "Power Button Cosmetic": {
+                        "code": "Cosmetic-23",
+                        "hierarchy": 20,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "discoloration"
+                                ],
+                                "surfaces": {
+                                    "B": [
+                                        10,
+                                        13
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "L1-LCD Cosmetic Damage": {
+                        "code": "Cosmetics-16",
+                        "hierarchy": 1,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "deep scratch",
+                                    "damaged"
+                                ],
+                                "surfaces": {
+                                    "AA": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "L1-SIM Tray Discolored": {
+                        "code": "Cosmetic-28",
+                        "hierarchy": 23,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "discoloration"
+                                ],
+                                "surfaces": {
+                                    "C": [
+                                        10,
+                                        11
+                                    ]
+                                }
+                            },
+                            {
+                                "num": 12,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration",
+                                    "minor",
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "C": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "Silent Switch Cosmetic": {
+                        "code": "Cosmetic-27",
+                        "hierarchy": 34,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "discoloration"
+                                ],
+                                "surfaces": {
+                                    "B": [
+                                        11
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "Volume Button Cosmetic": {
+                        "code": "Cosmetic-31",
+                        "hierarchy": 25,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "discoloration"
+                                ],
+                                "surfaces": {
+                                    "D": [
+                                        10,
+                                        11
+                                    ]
+                                }
+                            },
+                            {
+                                "num": 12,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration",
+                                    "minor",
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "D": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "05-Bezel Cosmetic Failure": {
+                        "code": "Cosmetic-5",
+                        "hierarchy": 2,
+                        "failure_reason": [
+                            {
+                                "num": 4,
+                                "defects": [
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "A": "all"
+                                }
+                            },
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "deep scratch",
+                                    "damaged"
+                                ],
+                                "surfaces": {
+                                    "A": "all"
+                                }
+                            },
+                            {
+                                "num": 1,
+                                "defects": [
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "C": "all"
+                                }
+                            },
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration"
+                                ],
+                                "surfaces": {
+                                    "C": "all"
+                                }
+                            },
+                            {
+                                "num": 12,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration",
+                                    "minor",
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "C": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "Charging Port Wrong Color": {
+                        "code": "Cosmetic-13A",
+                        "hierarchy": 7,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "discoloration"
+                                ],
+                                "surfaces": {
+                                    "B": [
+                                        12
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "Back Cover Cosmetic Failure": {
+                        "code": "Cosmetic-2",
+                        "hierarchy": 3,
+                        "failure_reason": [
+                            {
+                                "num": 15,
+                                "defects": [
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "B": "all"
+                                }
+                            },
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "discoloration",
+                                    "damaged",
+                                    "deep scratch"
+                                ],
+                                "surfaces": {
+                                    "B": "all"
+                                }
+                            },
+                            {
+                                "num": 100,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration",
+                                    "deep scratch",
+                                    "major",
+                                    "minor"
+                                ],
+                                "surfaces": {
+                                    "B": "all"
+                                }
+                            },
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration"
+                                ],
+                                "surfaces": {
+                                    "D": "all"
+                                }
+                            },
+                            {
+                                "num": 3,
+                                "defects": [
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "D": "all"
+                                }
+                            },
+                            {
+                                "num": 15,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration",
+                                    "minor",
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "D": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "L1-Rear Camera Cosmetic Damage": {
+                        "code": "Cosmetic-24O",
+                        "hierarchy": 4,
+                        "failure_reason": [
+                            {
+                                "num": 1,
+                                "defects": [
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "C": [
+                                        3
+                                    ]
+                                }
+                            },
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged"
+                                ],
+                                "surfaces": {
+                                    "C": [
+                                        3
+                                    ]
+                                }
+                            },
+                            {
+                                "num": 12,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration",
+                                    "minor",
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "C": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "L1-Front Camera Cosmetic Damage": {
+                        "code": "Cosmetic-13N",
+                        "hierarchy": 14,
+                        "failure_reason": [
+                            {
+                                "num": 1,
+                                "defects": [
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "C": [
+                                        0
+                                    ]
+                                }
+                            },
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged"
+                                ],
+                                "surfaces": {
+                                    "C": [
+                                        0
+                                    ]
+                                }
+                            },
+                            {
+                                "num": 12,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration",
+                                    "minor",
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "C": "all"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "CPO": {
+                "thresholds": {
+                    "A": {
+                        "major": {
+                            "dent": {
+                                "min_width": 0.8,
+                                "min_length": 1,
+                                "min_contrast": 16,
+                                "min_area_pixel": 800
+                            },
+                            "nick": {
+                                "min_width": 0.8,
+                                "min_length": 1,
+                                "min_contrast": 16,
+                                "min_area_pixel": 800
+                            },
+                            "scratch": {
+                                "min_width": 0.3,
+                                "min_length": 1,
+                                "min_contrast": 14,
+                                "min_area_pixel": 600
+                            }
+                        },
+                        "minor": {
+                            "dent": {
+                                "min_contrast": 7,
+                                "min_area_pixel": 200
+                            },
+                            "nick": {
+                                "min_contrast": 7,
+                                "min_area_pixel": 200
+                            },
+                            "pindot": {},
+                            "scratch": {
+                                "min_contrast": 7,
+                                "min_area_pixel": 200
+                            },
+                            "grouppindot": {},
+                            "discoloration": {},
+                            "differentscreen": {}
+                        },
+                        "damaged": {
+                            "crack": {},
+                            "missingpart": {}
+                        },
+                        "deep scratch": {
+                            "dent": {
+                                "min_width": 0.0375,
+                                "min_length": 2,
+                                "min_contrast": 18,
+                                "min_area_pixel": 600
+                            },
+                            "nick": {
+                                "min_width": 0.0375,
+                                "min_length": 2,
+                                "min_contrast": 18,
+                                "min_area_pixel": 600
+                            },
+                            "scratch": {
+                                "min_width": 0.0375,
+                                "min_length": 2,
+                                "min_contrast": 18,
+                                "min_area_pixel": 600
+                            }
+                        }
+                    },
+                    "B": {
+                        "major": {
+                            "dent": {
+                                "min_width": 0.8,
+                                "min_length": 1.6,
+                                "min_contrast": 16,
+                                "min_area_pixel": 800
+                            },
+                            "nick": {
+                                "min_width": 0.8,
+                                "min_length": 1.6,
+                                "min_contrast": 16,
+                                "min_area_pixel": 800
+                            },
+                            "scratch": {
+                                "min_width": 0.8,
+                                "min_length": 1.6,
+                                "min_contrast": 16,
+                                "min_area_pixel": 800
+                            }
+                        },
+                        "minor": {
+                            "dent": {
+                                "min_length": 1.6,
+                                "min_contrast": 7,
+                                "min_area_pixel": 200
+                            },
+                            "nick": {
+                                "min_length": 1.6,
+                                "min_contrast": 7,
+                                "min_area_pixel": 200
+                            },
+                            "pindot": {},
+                            "scratch": {
+                                "min_length": 1.6,
+                                "min_contrast": 7,
+                                "min_area_pixel": 200
+                            },
+                            "grouppindot": {},
+                            "differentscreen": {}
+                        },
+                        "damaged": {
+                            "crack": {},
+                            "missingpart": {}
+                        },
+                        "deep scratch": {
+                            "dent": {
+                                "min_width": 0.0375,
+                                "min_length": 2,
+                                "min_contrast": 22,
+                                "min_area_pixel": 600
+                            },
+                            "nick": {
+                                "min_width": 0.0375,
+                                "min_length": 2,
+                                "min_contrast": 22,
+                                "min_area_pixel": 600
+                            },
+                            "scratch": {
+                                "min_width": 0.0375,
+                                "min_length": 2,
+                                "min_contrast": 28,
+                                "min_area_pixel": 600
+                            }
+                        },
+                        "discoloration": {
+                            "discoloration": {}
+                        }
+                    },
+                    "C": {
+                        "major": {
+                            "dent": {
+                                "max_width": 1,
+                                "max_length": 20
+                            },
+                            "nick": {
+                                "max_width": 1,
+                                "max_length": 20
+                            },
+                            "pindot": {
+                                "max_area": 2
+                            },
+                            "scratch": {
+                                "max_width": 1,
+                                "max_length": 20
+                            }
+                        },
+                        "minor": {
+                            "dent": {
+                                "max_width": 0.8,
+                                "max_length": 20
+                            },
+                            "nick": {
+                                "max_width": 0.8,
+                                "max_length": 20
+                            },
+                            "scratch": {
+                                "max_width": 0.8,
+                                "max_length": 20
+                            }
+                        },
+                        "damaged": {
+                            "crack": {},
+                            "missingpart": {}
+                        },
+                        "discoloration": {
+                            "discoloration": {}
+                        }
+                    },
+                    "D": {
+                        "major": {
+                            "dent": {
+                                "max_width": 1,
+                                "max_length": 20
+                            },
+                            "nick": {
+                                "max_width": 1,
+                                "max_length": 20
+                            },
+                            "pindot": {
+                                "max_area": 2
+                            },
+                            "scratch": {
+                                "max_width": 1,
+                                "max_length": 20
+                            }
+                        },
+                        "minor": {
+                            "dent": {
+                                "max_width": 0.8,
+                                "max_length": 20
+                            },
+                            "nick": {
+                                "max_width": 0.8,
+                                "max_length": 20
+                            },
+                            "scratch": {
+                                "max_width": 0.8,
+                                "max_length": 20
+                            }
+                        },
+                        "damaged": {
+                            "crack": {},
+                            "missingpart": {}
+                        },
+                        "discoloration": {
+                            "discoloration": {}
+                        }
+                    },
+                    "AA": {
+                        "major": {
+                            "dent": {
+                                "min_width": 0.8,
+                                "min_length": 1.6,
+                                "min_contrast": 16,
+                                "min_area_pixel": 800
+                            },
+                            "nick": {
+                                "min_width": 0.8,
+                                "min_length": 1.6,
+                                "min_contrast": 16,
+                                "min_area_pixel": 800
+                            },
+                            "scratch": {
+                                "min_width": 0.3,
+                                "min_length": 1.6,
+                                "min_contrast": 15.5,
+                                "min_area_pixel": 800
+                            }
+                        },
+                        "minor": {
+                            "dent": {
+                                "min_length": 1.6,
+                                "min_contrast": 7,
+                                "min_area_pixel": 200
+                            },
+                            "nick": {
+                                "min_length": 1.6,
+                                "min_contrast": 7,
+                                "min_area_pixel": 200
+                            },
+                            "pindot": {},
+                            "scratch": {
+                                "min_length": 1.6,
+                                "min_contrast": 7,
+                                "min_area_pixel": 200
+                            },
+                            "grouppindot": {},
+                            "discoloration": {},
+                            "differentscreen": {}
+                        },
+                        "damaged": {
+                            "crack": {},
+                            "missingpart": {}
+                        },
+                        "deep scratch": {
+                            "dent": {
+                                "min_width": 0.15,
+                                "min_length": 1.6,
+                                "min_contrast": 21,
+                                "min_area_pixel": 500
+                            },
+                            "nick": {
+                                "min_width": 0.15,
+                                "min_length": 1.6,
+                                "min_contrast": 21,
+                                "min_area_pixel": 500
+                            },
+                            "scratch": {
+                                "min_width": 0.15,
+                                "min_length": 1.6,
+                                "min_contrast": 21.5,
+                                "min_area_pixel": 500
+                            }
+                        }
+                    }
+                },
+                "failure_reasons": {
+                    "L1-LCD Cracked": {
+                        "code": "Cosmetic-17",
+                        "hierarchy": 5,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged"
+                                ],
+                                "surfaces": {
+                                    "A": [
+                                        0
+                                    ],
+                                    "AA": [
+                                        0
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "L1-Screw Wrong": {
+                        "code": "Cosmetic-26",
+                        "hierarchy": 44,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "discoloration"
+                                ],
+                                "surfaces": {
+                                    "D": [
+                                        12
+                                    ]
+                                }
+                            },
+                            {
+                                "num": 12,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration",
+                                    "minor",
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "D": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "L1-Screw Missing": {
+                        "code": "Cosmetic-25",
+                        "hierarchy": 42,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged"
+                                ],
+                                "surfaces": {
+                                    "C": [
+                                        12
+                                    ]
+                                }
+                            },
+                            {
+                                "num": 12,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration",
+                                    "minor",
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "C": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "Home Button Cosmetic": {
+                        "code": "Cosmetic-15",
+                        "hierarchy": 9,
+                        "failure_reason": [
+                            {
+                                "num": 2,
+                                "defects": [
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "D": [
+                                        0
+                                    ]
+                                }
+                            },
+                            {
+                                "num": 12,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration",
+                                    "minor",
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "D": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "Power Button Cosmetic": {
+                        "code": "Cosmetic-23",
+                        "hierarchy": 20,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "discoloration"
+                                ],
+                                "surfaces": {
+                                    "B": [
+                                        10,
+                                        13
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "L1-LCD Cosmetic Damage": {
+                        "code": "Cosmetics-16",
+                        "hierarchy": 1,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "deep scratch",
+                                    "major",
+                                    "damaged"
+                                ],
+                                "surfaces": {
+                                    "AA": "all"
+                                }
+                            },
+                            {
+                                "num": 40,
+                                "defects": [
+                                    "damaged",
+                                    "deep scratch",
+                                    "major",
+                                    "minor"
+                                ],
+                                "surfaces": {
+                                    "AA": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "L1-SIM Tray Discolored": {
+                        "code": "Cosmetic-28",
+                        "hierarchy": 23,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "discoloration"
+                                ],
+                                "surfaces": {
+                                    "C": [
+                                        10,
+                                        11
+                                    ]
+                                }
+                            },
+                            {
+                                "num": 12,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration",
+                                    "minor",
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "C": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "Silent Switch Cosmetic": {
+                        "code": "Cosmetic-27",
+                        "hierarchy": 34,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "discoloration"
+                                ],
+                                "surfaces": {
+                                    "B": [
+                                        11
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "Volume Button Cosmetic": {
+                        "code": "Cosmetic-31",
+                        "hierarchy": 25,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "discoloration"
+                                ],
+                                "surfaces": {
+                                    "D": [
+                                        10,
+                                        11
+                                    ]
+                                }
+                            },
+                            {
+                                "num": 12,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration",
+                                    "minor",
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "D": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "05-Bezel Cosmetic Failure": {
+                        "code": "Cosmetic-5",
+                        "hierarchy": 2,
+                        "failure_reason": [
+                            {
+                                "num": 4,
+                                "defects": [
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "A": "all"
+                                }
+                            },
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "deep scratch",
+                                    "damaged"
+                                ],
+                                "surfaces": {
+                                    "A": "all"
+                                }
+                            },
+                            {
+                                "num": 1,
+                                "defects": [
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "C": "all"
+                                }
+                            },
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration"
+                                ],
+                                "surfaces": {
+                                    "C": "all"
+                                }
+                            },
+                            {
+                                "num": 12,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration",
+                                    "minor",
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "C": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "Charging Port Wrong Color": {
+                        "code": "Cosmetic-13A",
+                        "hierarchy": 7,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "discoloration"
+                                ],
+                                "surfaces": {
+                                    "B": [
+                                        12
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "Back Cover Cosmetic Failure": {
+                        "code": "Cosmetic-2",
+                        "hierarchy": 3,
+                        "failure_reason": [
+                            {
+                                "num": 12,
+                                "defects": [
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "B": "all"
+                                }
+                            },
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "discoloration",
+                                    "damaged",
+                                    "deep scratch"
+                                ],
+                                "surfaces": {
+                                    "B": "all"
+                                }
+                            },
+                            {
+                                "num": 40,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration",
+                                    "deep scratch",
+                                    "major",
+                                    "minor"
+                                ],
+                                "surfaces": {
+                                    "B": "all"
+                                }
+                            },
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration"
+                                ],
+                                "surfaces": {
+                                    "D": "all"
+                                }
+                            },
+                            {
+                                "num": 2,
+                                "defects": [
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "D": "all"
+                                }
+                            },
+                            {
+                                "num": 12,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration",
+                                    "minor",
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "D": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "L1-Rear Camera Cosmetic Damage": {
+                        "code": "Cosmetic-24O",
+                        "hierarchy": 4,
+                        "failure_reason": [
+                            {
+                                "num": 1,
+                                "defects": [
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "C": [
+                                        3
+                                    ]
+                                }
+                            },
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged"
+                                ],
+                                "surfaces": {
+                                    "C": [
+                                        3
+                                    ]
+                                }
+                            },
+                            {
+                                "num": 12,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration",
+                                    "minor",
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "C": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "L1-Front Camera Cosmetic Damage": {
+                        "code": "Cosmetic-13N",
+                        "hierarchy": 14,
+                        "failure_reason": [
+                            {
+                                "num": 1,
+                                "defects": [
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "C": [
+                                        0
+                                    ]
+                                }
+                            },
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged"
+                                ],
+                                "surfaces": {
+                                    "C": [
+                                        0
+                                    ]
+                                }
+                            },
+                            {
+                                "num": 12,
+                                "defects": [
+                                    "damaged",
+                                    "discoloration",
+                                    "minor",
+                                    "major"
+                                ],
+                                "surfaces": {
+                                    "C": "all"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "NEW": {
+                "thresholds": {
+                    "A": {
+                        "damaged": {
+                            "crack": {},
+                            "missingpart": {}
+                        },
+                        "level 1": {
+                            "dent": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "nick": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "pindot": {
+                                "max_length": 0.8
+                            },
+                            "scratch": {
+                                "max_width": 0.1,
+                                "max_length": 5
+                            }
+                        },
+                        "level 2": {
+                            "dent": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "nick": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "pindot": {
+                                "max_length": 1
+                            },
+                            "scratch": {
+                                "max_width": 0.2,
+                                "max_length": 10
+                            }
+                        },
+                        "deep scratch": {
+                            "dent": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "nick": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "scratch": {
+                                "min_width": 0.0375,
+                                "min_length": 1.6,
+                                "min_contrast": 17,
+                                "min_area_pixel": 500
+                            }
+                        },
+                        "discoloration": {
+                            "discoloration": {}
+                        },
+                        "light scratch": {
+                            "dent": {},
+                            "nick": {},
+                            "pindot": {},
+                            "scratch": {},
+                            "grouppindot": {}
+                        }
+                    },
+                    "B": {
+                        "damaged": {
+                            "crack": {},
+                            "missingpart": {}
+                        },
+                        "level 1": {
+                            "dent": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "nick": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "pindot": {
+                                "max_length": 0.8
+                            },
+                            "scratch": {
+                                "max_width": 0.1,
+                                "max_length": 5
+                            }
+                        },
+                        "level 2": {
+                            "dent": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "nick": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "pindot": {
+                                "max_length": 1
+                            },
+                            "scratch": {
+                                "max_width": 0.2,
+                                "max_length": 10
+                            }
+                        },
+                        "deep scratch": {
+                            "dent": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "nick": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "scratch": {
+                                "min_width": 0.0375,
+                                "min_length": 1.6,
+                                "min_contrast": 17,
+                                "min_area_pixel": 500
+                            }
+                        },
+                        "discoloration": {
+                            "discoloration": {}
+                        },
+                        "light scratch": {
+                            "dent": {},
+                            "nick": {},
+                            "pindot": {},
+                            "scratch": {},
+                            "grouppindot": {}
+                        }
+                    },
+                    "AA": {
+                        "damaged": {
+                            "crack": {},
+                            "missingpart": {}
+                        },
+                        "level 1": {
+                            "dent": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "nick": {
+                                "max_width": 0.8,
+                                "max_length": 0.8
+                            },
+                            "pindot": {
+                                "max_length": 0.8
+                            },
+                            "scratch": {
+                                "max_width": 0.1,
+                                "max_length": 5
+                            }
+                        },
+                        "level 2": {
+                            "dent": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "nick": {
+                                "max_width": 1,
+                                "max_length": 1
+                            },
+                            "pindot": {
+                                "max_length": 1
+                            },
+                            "scratch": {
+                                "max_width": 0.2,
+                                "max_length": 10
+                            }
+                        },
+                        "deep scratch": {
+                            "dent": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "nick": {
+                                "min_width": 0.36,
+                                "min_contrast": 18,
+                                "min_area_pixel": 250
+                            },
+                            "scratch": {
+                                "min_width": 0.0375,
+                                "min_length": 1.6,
+                                "min_contrast": 17,
+                                "min_area_pixel": 500
+                            }
+                        },
+                        "discoloration": {
+                            "discoloration": {}
+                        },
+                        "light scratch": {
+                            "dent": {},
+                            "nick": {},
+                            "pindot": {},
+                            "scratch": {},
+                            "grouppindot": {}
+                        }
+                    }
+                },
+                "failure_reasons": {
+                    "L1-LCD Cosmetic Damage": {
+                        "code": "Cosmetics-16",
+                        "hierarchy": 1,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged",
+                                    "deep scratch",
+                                    "level 1",
+                                    "level 2",
+                                    "discoloration",
+                                    "light scratch"
+                                ],
+                                "surfaces": {
+                                    "AA": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "05-Bezel Cosmetic Failure": {
+                        "code": "Cosmetic-5",
+                        "hierarchy": 2,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged",
+                                    "deep scratch",
+                                    "level 1",
+                                    "level 2",
+                                    "discoloration",
+                                    "light scratch"
+                                ],
+                                "surfaces": {
+                                    "A": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "Back Cover Cosmetic Failure": {
+                        "code": "Cosmetic-2",
+                        "hierarchy": 3,
+                        "failure_reason": [
+                            {
+                                "num": 0,
+                                "defects": [
+                                    "damaged",
+                                    "deep scratch",
+                                    "level 1",
+                                    "level 2",
+                                    "discoloration",
+                                    "light scratch"
+                                ],
+                                "surfaces": {
+                                    "B": "all"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "REAR_CAMERA": {
+            "mconf": {
+                "camera:type_hierarchy": {
+                    "SIDE": 1,
+                    "CENTER": 0,
+                    "UNKNOWN": 999,
+                    "DARK_PIXEL": 1,
+                    "DARK_REGION": 2,
+                    "BRIGHT_REGION": 0
+                },
+                "camera:max_defect_processing_num": 50,
+                "camera:max_distortion_processing_num": 50
+            }
+        },
+        "FRONT_CAMERA": {
+            "mconf": {
+                "camera:type_hierarchy": {
+                    "SIDE": 1,
+                    "CENTER": 0,
+                    "UNKNOWN": 999,
+                    "DARK_PIXEL": 1,
+                    "DARK_REGION": 2,
+                    "BRIGHT_REGION": 0
+                },
+                "camera:max_defect_processing_num": 50,
+                "camera:max_distortion_processing_num": 50
+            }
+        },
+        "VIBRATE_SWITCH": {
+            "installed": false
+        }
+    }
+}

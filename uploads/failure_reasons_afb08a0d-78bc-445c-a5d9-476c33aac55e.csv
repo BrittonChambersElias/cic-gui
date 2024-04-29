@@ -1,0 +1,194 @@
+Grade,Category,Code,Hierarchy,Num,Defect,Surface,Surface Detail,uid
+A,L1-LCD Cosmetic Damage,Cosmetics-16,1,0,damaged,AA,['all'],6e37c44a-eadf-4697-8df0-ac83a0bb3450
+A,L1-LCD Cosmetic Damage,Cosmetics-16,1,0,deep scratch,AA,['all'],d9fbb5fb-37a0-4e13-baa7-89cb4fc58ca7
+A,L1-LCD Cosmetic Damage,Cosmetics-16,1,0,level 1,AA,['all'],a9a0e990-516c-41a7-af8d-1a4524e3cc34
+A,L1-LCD Cosmetic Damage,Cosmetics-16,1,0,level 2,AA,['all'],5aae3f88-f449-44b5-85cd-c96a93a4a750
+A,L1-LCD Cosmetic Damage,Cosmetics-16,1,0,discoloration,AA,['all'],765e9c80-3336-41fa-82fd-af8514e8b60f
+A,L1-LCD Cosmetic Damage,Cosmetics-16,1,0,light scratch,AA,['all'],c9dda771-24d8-42a0-9c84-e79779729b50
+A,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,damaged,A,['all'],6bc641c8-c90e-4bba-8251-163e05745bac
+A,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,deep scratch,A,['all'],669a259a-15ed-4e4a-a849-fc7db85ad219
+A,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,level 2,A,['all'],76831946-d413-4e84-84e3-77f2e07c6ede
+A,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,discoloration,A,['all'],3e304378-f3c6-4975-a812-08201b68c820
+A,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,light scratch,A,['all'],b7c17b39-6a51-4f51-a42d-297f6687ffae
+A,05-Bezel Cosmetic Failure,Cosmetic-5,2,2,level 1,A,['all'],4fac9ba1-2424-4c6c-a863-55dc397030f8
+A,Back Cover Cosmetic Failure,Cosmetic-2,3,0,damaged,B,['all'],e8e327f3-954c-41f2-9579-b050da004659
+A,Back Cover Cosmetic Failure,Cosmetic-2,3,0,deep scratch,B,['all'],f3216e39-aea9-4742-bc09-53d53af7701f
+A,Back Cover Cosmetic Failure,Cosmetic-2,3,0,discoloration,B,['all'],9c307f19-629f-4f0b-b2ff-2a35f9a769be
+A,Back Cover Cosmetic Failure,Cosmetic-2,3,0,light scratch,B,['all'],3828607f-ba3d-4310-99c6-5db65346609e
+A,Back Cover Cosmetic Failure,Cosmetic-2,3,3,level 1,B,['all'],7c46f8f9-feb2-4988-982b-38e478baaf06
+A,Back Cover Cosmetic Failure,Cosmetic-2,3,1,level 2,B,['all'],af13311a-1b7a-4fa2-b9db-94b897123d8a
+B,L1-LCD Cosmetic Damage,Cosmetics-16,1,0,damaged,AA,['all'],89d96cdc-5c08-4608-8359-3d932f96fd74
+B,L1-LCD Cosmetic Damage,Cosmetics-16,1,0,deep scratch,AA,['all'],3959b218-dae8-4ff4-993b-fc1b31f8a919
+B,L1-LCD Cosmetic Damage,Cosmetics-16,1,0,discoloration,AA,['all'],13711f33-24d5-47f6-a0ef-84756010d78e
+B,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,damaged,A,['all'],60c91316-7547-4f8f-b5c9-17fa2a72aeda
+B,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,deep scratch,A,['all'],ecd0d669-6c45-49a6-88d6-e71f9c3b9a37
+B,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,discoloration,A,['all'],14f01050-833f-4651-be2c-68a5bbc0b46e
+B,Back Cover Cosmetic Failure,Cosmetic-2,3,0,damaged,B,['all'],c630c89f-5ab0-48d9-bf36-b9cfbe1fad39
+B,Back Cover Cosmetic Failure,Cosmetic-2,3,0,deep scratch,B,['all'],164e8343-24b4-4074-8b27-f282e6137be3
+B,Back Cover Cosmetic Failure,Cosmetic-2,3,0,discoloration,B,['all'],35ea5c48-bdfb-41db-9f5f-7b712278e5e5
+C,L1-LCD Cosmetic Damage,Cosmetics-16,1,0,damaged,AA,['all'],1aeb6bc3-0e0c-4570-9035-55168fad9227
+C,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,damaged,A,['all'],d84260e5-363a-489d-a01d-eb896f13d556
+C,Back Cover Cosmetic Failure,Cosmetic-2,3,0,damaged,B,['all'],bc133287-e155-4806-9dca-a3f773c7365a
+BP,L1-LCD Cracked,Cosmetic-17,5,0,damaged,A,[0],40c41fa0-f6d9-4646-8b0d-e5903deef9f8
+BP,L1-LCD Cracked,Cosmetic-17,5,0,damaged,AA,[0],531444a0-6732-4711-b75e-3fc4040aaa93
+BP,L1-Screw Wrong,Cosmetic-26,44,0,discoloration,D,[12],9c4bef3c-15e0-4638-9b3c-52ec32ea797f
+BP,L1-Screw Wrong,Cosmetic-26,44,12,damaged,D,['all'],6e2dc569-c2c4-473e-b329-7a5d2149bce5
+BP,L1-Screw Wrong,Cosmetic-26,44,12,discoloration,D,['all'],db428c25-3991-4f71-962e-96201d00286d
+BP,L1-Screw Wrong,Cosmetic-26,44,12,minor,D,['all'],db1d7539-cd76-4ad1-ad86-b60ebf24d6fe
+BP,L1-Screw Wrong,Cosmetic-26,44,12,major,D,['all'],cfa36f52-51bc-4de7-b5de-f29edb08ea6b
+BP,L1-Screw Missing,Cosmetic-25,42,0,damaged,C,[12],42de2b7c-5e68-4996-964e-a95d58bed7ee
+BP,L1-Screw Missing,Cosmetic-25,42,12,damaged,C,['all'],29a3a136-318d-4bed-88c4-921966d6040d
+BP,L1-Screw Missing,Cosmetic-25,42,12,discoloration,C,['all'],f4dc88fc-e395-477b-9200-71635f90fbe5
+BP,L1-Screw Missing,Cosmetic-25,42,12,minor,C,['all'],e985cf93-ec1f-443a-b945-250731b209cf
+BP,L1-Screw Missing,Cosmetic-25,42,12,major,C,['all'],ac23798e-0a2a-411e-a7f0-97e5a1b7e73c
+BP,Home Button Cosmetic,Cosmetic-15,9,2,major,D,[0],7a853e26-33cc-4eb1-85b5-2f215aa8cd5e
+BP,Home Button Cosmetic,Cosmetic-15,9,12,damaged,D,['all'],a8ef966a-ea08-4b0d-b0e4-4ad0d6d7fb35
+BP,Home Button Cosmetic,Cosmetic-15,9,12,discoloration,D,['all'],13a1be5e-759d-4298-8449-5206683ae51b
+BP,Home Button Cosmetic,Cosmetic-15,9,12,minor,D,['all'],2d85f920-16d0-4e92-8514-4bb2268f1183
+BP,Home Button Cosmetic,Cosmetic-15,9,12,major,D,['all'],01d16762-2f56-479d-b2a4-661a812fd259
+BP,Power Button Cosmetic,Cosmetic-23,20,0,discoloration,B,"[10, 13]",a0924edf-08f0-4764-9ab0-e24d0abd25b6
+BP,L1-LCD Cosmetic Damage,Cosmetics-16,1,0,deep scratch,AA,['all'],2d4ed27c-a79f-40e1-bc9d-7f147ad24375
+BP,L1-LCD Cosmetic Damage,Cosmetics-16,1,0,damaged,AA,['all'],50482004-e6da-4a5c-b09e-347dcdfb784e
+BP,L1-SIM Tray Discolored,Cosmetic-28,23,0,discoloration,C,"[10, 11]",edca899a-f19c-41e1-92ae-34e1bd892c41
+BP,L1-SIM Tray Discolored,Cosmetic-28,23,12,damaged,C,['all'],ff417e8c-37e0-4b22-968e-2213965f68e6
+BP,L1-SIM Tray Discolored,Cosmetic-28,23,12,discoloration,C,['all'],0c379269-237c-48bb-9c0d-718be83d1ad5
+BP,L1-SIM Tray Discolored,Cosmetic-28,23,12,minor,C,['all'],9848e179-1677-4adb-aef3-ff7c5323d485
+BP,L1-SIM Tray Discolored,Cosmetic-28,23,12,major,C,['all'],4154d779-f313-448b-b03a-5d50497cab31
+BP,Silent Switch Cosmetic,Cosmetic-27,34,0,discoloration,B,[11],e7511104-319e-4551-a550-1810a8c48821
+BP,Volume Button Cosmetic,Cosmetic-31,25,0,discoloration,D,"[10, 11]",36671557-bd7e-46c0-b7e1-77c9bc72a556
+BP,Volume Button Cosmetic,Cosmetic-31,25,12,damaged,D,['all'],60b3fe9d-3a6c-45c1-a7e2-8e76dc9f0459
+BP,Volume Button Cosmetic,Cosmetic-31,25,12,discoloration,D,['all'],9b960e84-703f-4a55-8140-db9b0f79eb6e
+BP,Volume Button Cosmetic,Cosmetic-31,25,12,minor,D,['all'],d3f0114a-35a2-4383-b4f1-fab4e4273535
+BP,Volume Button Cosmetic,Cosmetic-31,25,12,major,D,['all'],fba01cd8-58aa-41a7-b013-93685eb036cd
+BP,05-Bezel Cosmetic Failure,Cosmetic-5,2,4,major,A,['all'],1d92a3cd-208c-4e88-9e40-85aafeac7643
+BP,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,deep scratch,A,['all'],da3bee09-a2df-4d68-9d88-6cd70aec6f8c
+BP,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,damaged,A,['all'],f6bffd96-a08e-468d-a588-dcf9e677f67a
+BP,05-Bezel Cosmetic Failure,Cosmetic-5,2,1,major,C,['all'],8df3043a-b66d-4c4e-84cc-a93eb28bff5a
+BP,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,damaged,C,['all'],39b15a1c-9b9e-4c2e-a834-e90c901d67a7
+BP,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,discoloration,C,['all'],23cff8d4-2e99-46c8-8e4c-e5529f04e97b
+BP,05-Bezel Cosmetic Failure,Cosmetic-5,2,12,damaged,C,['all'],ca769a85-e03e-4f30-8ba9-a05d128d4c5a
+BP,05-Bezel Cosmetic Failure,Cosmetic-5,2,12,discoloration,C,['all'],9110d670-beec-4970-8c9d-bdc53d76300c
+BP,05-Bezel Cosmetic Failure,Cosmetic-5,2,12,minor,C,['all'],3e307805-9845-4c92-bfd3-e7f24b1360fb
+BP,05-Bezel Cosmetic Failure,Cosmetic-5,2,12,major,C,['all'],f856642a-3972-40ac-945c-9b1b18078600
+BP,Charging Port Wrong Color,Cosmetic-13A,7,0,discoloration,B,[12],b2636d2a-65ed-4c05-a279-ca6cec82f790
+BP,Back Cover Cosmetic Failure,Cosmetic-2,3,15,major,B,['all'],bb6cf483-2270-4d1f-874c-061846cc3662
+BP,Back Cover Cosmetic Failure,Cosmetic-2,3,0,discoloration,B,['all'],b6cba428-c53d-4da2-baf3-c85ae866785a
+BP,Back Cover Cosmetic Failure,Cosmetic-2,3,0,damaged,B,['all'],8faae507-c06e-4829-aa7b-93241212adce
+BP,Back Cover Cosmetic Failure,Cosmetic-2,3,0,deep scratch,B,['all'],51515f6c-d7ab-4a08-bcb0-c964b68e2937
+BP,Back Cover Cosmetic Failure,Cosmetic-2,3,100,damaged,B,['all'],4cf984fb-c5b2-4d0c-9638-e134cb2bbb86
+BP,Back Cover Cosmetic Failure,Cosmetic-2,3,100,discoloration,B,['all'],2520381a-b06a-4686-86b0-0fe95cfd3d71
+BP,Back Cover Cosmetic Failure,Cosmetic-2,3,100,deep scratch,B,['all'],f180300c-5940-4bce-a0f9-650d0008b543
+BP,Back Cover Cosmetic Failure,Cosmetic-2,3,100,major,B,['all'],2127d42b-71e7-4b4a-9b0b-c9a10a7c18da
+BP,Back Cover Cosmetic Failure,Cosmetic-2,3,100,minor,B,['all'],6ddba5e2-e378-49a6-9871-19b664eb0da3
+BP,Back Cover Cosmetic Failure,Cosmetic-2,3,0,damaged,D,['all'],bded75b0-84a3-43bf-b541-63e64df3d759
+BP,Back Cover Cosmetic Failure,Cosmetic-2,3,0,discoloration,D,['all'],f7759e99-cfcd-410e-b6b9-c916d04de0ee
+BP,Back Cover Cosmetic Failure,Cosmetic-2,3,3,major,D,['all'],6090b05b-703b-4790-884d-bd8d7d60a822
+BP,Back Cover Cosmetic Failure,Cosmetic-2,3,15,damaged,D,['all'],3629d425-c71c-4a66-922a-ee26980b4f5c
+BP,Back Cover Cosmetic Failure,Cosmetic-2,3,15,discoloration,D,['all'],8290f829-5dd2-463f-a7e8-51f197ee4ca6
+BP,Back Cover Cosmetic Failure,Cosmetic-2,3,15,minor,D,['all'],4b6aed69-18af-443d-ae59-cca4ed279dcd
+BP,Back Cover Cosmetic Failure,Cosmetic-2,3,15,major,D,['all'],5ad16212-0bc9-4a7d-a9ea-6628680a863d
+BP,L1-Rear Camera Cosmetic Damage,Cosmetic-24O,4,1,major,C,[3],375cc7b0-1699-41ce-97b1-dec1404991b8
+BP,L1-Rear Camera Cosmetic Damage,Cosmetic-24O,4,0,damaged,C,[3],0cdbe3e3-3e99-4e7b-830c-3538e9712471
+BP,L1-Rear Camera Cosmetic Damage,Cosmetic-24O,4,12,damaged,C,['all'],1e4af726-f37a-4d3a-aa45-0f059723336e
+BP,L1-Rear Camera Cosmetic Damage,Cosmetic-24O,4,12,discoloration,C,['all'],983bb715-c2f5-4de9-9902-c1dd12bfbc14
+BP,L1-Rear Camera Cosmetic Damage,Cosmetic-24O,4,12,minor,C,['all'],d9d264cd-0a14-414c-8976-06e77ec5ffe9
+BP,L1-Rear Camera Cosmetic Damage,Cosmetic-24O,4,12,major,C,['all'],823eca2d-a3d9-4f75-81b9-e1b1d9d50dcc
+BP,L1-Front Camera Cosmetic Damage,Cosmetic-13N,14,1,major,C,[0],9aa143a8-2c9c-46fd-bff4-3a0f9f037752
+BP,L1-Front Camera Cosmetic Damage,Cosmetic-13N,14,0,damaged,C,[0],0d3ceb43-a12a-4126-adae-2e808255bd2b
+BP,L1-Front Camera Cosmetic Damage,Cosmetic-13N,14,12,damaged,C,['all'],636c7e5b-5a6c-495c-b74e-439b6a4571c4
+BP,L1-Front Camera Cosmetic Damage,Cosmetic-13N,14,12,discoloration,C,['all'],1b0706ed-b0cb-4d21-9411-c9d57982615c
+BP,L1-Front Camera Cosmetic Damage,Cosmetic-13N,14,12,minor,C,['all'],cae00309-b5fe-4aa9-8ad5-0ac75e04c07b
+BP,L1-Front Camera Cosmetic Damage,Cosmetic-13N,14,12,major,C,['all'],2d632dc4-9c06-4c18-8d05-a65da0eb0460
+CPO,L1-LCD Cracked,Cosmetic-17,5,0,damaged,A,[0],06c0c616-be64-4686-b2db-785bce87c4e0
+CPO,L1-LCD Cracked,Cosmetic-17,5,0,damaged,AA,[0],ee7e59d1-058a-4b19-a8b8-6597da1e5c9c
+CPO,L1-Screw Wrong,Cosmetic-26,44,0,discoloration,D,[12],6f2c4712-2400-40fc-8dca-10dd658eac81
+CPO,L1-Screw Wrong,Cosmetic-26,44,12,damaged,D,['all'],b9088f86-7703-428e-8023-42c1e451cfa8
+CPO,L1-Screw Wrong,Cosmetic-26,44,12,discoloration,D,['all'],0676be44-b363-4d71-94ff-df1801119b5a
+CPO,L1-Screw Wrong,Cosmetic-26,44,12,minor,D,['all'],5d4cbf41-530b-4406-a547-f77aae667fc4
+CPO,L1-Screw Wrong,Cosmetic-26,44,12,major,D,['all'],b5c67919-167a-4e27-962e-bf2dbca36ebc
+CPO,L1-Screw Missing,Cosmetic-25,42,0,damaged,C,[12],e846656a-96a0-47d7-93a3-51d45c47e02c
+CPO,L1-Screw Missing,Cosmetic-25,42,12,damaged,C,['all'],3ce9863b-1488-44e9-8131-020d4c5f9246
+CPO,L1-Screw Missing,Cosmetic-25,42,12,discoloration,C,['all'],bbb8d346-b880-4961-a267-8cf14c9f25d7
+CPO,L1-Screw Missing,Cosmetic-25,42,12,minor,C,['all'],0a898cd8-ad40-4249-9a1d-016ae2654915
+CPO,L1-Screw Missing,Cosmetic-25,42,12,major,C,['all'],3eb186d5-7960-4963-b4e7-1f7210c7cda4
+CPO,Home Button Cosmetic,Cosmetic-15,9,2,major,D,[0],575168fb-06f5-4411-b677-7ac3225c60c2
+CPO,Home Button Cosmetic,Cosmetic-15,9,12,damaged,D,['all'],6f6798fc-3482-4337-baed-566b8bb93b53
+CPO,Home Button Cosmetic,Cosmetic-15,9,12,discoloration,D,['all'],a4fe0d64-fd88-46c7-8e2c-7623edce98ab
+CPO,Home Button Cosmetic,Cosmetic-15,9,12,minor,D,['all'],c4e8a8ec-7578-477b-8619-12f6e392e318
+CPO,Home Button Cosmetic,Cosmetic-15,9,12,major,D,['all'],d33d1ced-a47f-4aa2-a216-37e5cf0aad81
+CPO,Power Button Cosmetic,Cosmetic-23,20,0,discoloration,B,"[10, 13]",423ef0d8-ed6c-444e-8e89-a52056d42f6b
+CPO,L1-LCD Cosmetic Damage,Cosmetics-16,1,0,deep scratch,AA,['all'],88273823-6ba6-4b37-8ffc-3bd6b8e47108
+CPO,L1-LCD Cosmetic Damage,Cosmetics-16,1,0,major,AA,['all'],0a660629-6d39-4b7d-b694-7f65472d1ff3
+CPO,L1-LCD Cosmetic Damage,Cosmetics-16,1,0,damaged,AA,['all'],17dc84a7-b361-4914-8cd7-946dc939e885
+CPO,L1-LCD Cosmetic Damage,Cosmetics-16,1,40,damaged,AA,['all'],b9cfa2b9-660a-48e4-a354-018f8c63f928
+CPO,L1-LCD Cosmetic Damage,Cosmetics-16,1,40,deep scratch,AA,['all'],4d8895f6-ac89-4ac0-8af1-6691d7a19a05
+CPO,L1-LCD Cosmetic Damage,Cosmetics-16,1,40,major,AA,['all'],a1a2bfc7-09ce-4ecc-bb36-992d0447a99b
+CPO,L1-LCD Cosmetic Damage,Cosmetics-16,1,40,minor,AA,['all'],4a9a23bd-b8f2-4b66-b569-d167488a2e31
+CPO,L1-SIM Tray Discolored,Cosmetic-28,23,0,discoloration,C,"[10, 11]",fc96ec75-1ec4-4346-b9a2-2e1071d2ea58
+CPO,L1-SIM Tray Discolored,Cosmetic-28,23,12,damaged,C,['all'],219503f3-034d-432e-9205-55a84f791a4d
+CPO,L1-SIM Tray Discolored,Cosmetic-28,23,12,discoloration,C,['all'],0efc53cc-138e-4423-b246-264af4f3b0cf
+CPO,L1-SIM Tray Discolored,Cosmetic-28,23,12,minor,C,['all'],7d9b0135-0f7c-4fa5-bbb9-4ddca6b437fb
+CPO,L1-SIM Tray Discolored,Cosmetic-28,23,12,major,C,['all'],4a0b25c9-136f-4887-994e-52377989a3c0
+CPO,Silent Switch Cosmetic,Cosmetic-27,34,0,discoloration,B,[11],2b92932d-f909-4d4a-9965-7872e6972194
+CPO,Volume Button Cosmetic,Cosmetic-31,25,0,discoloration,D,"[10, 11]",293e33fd-1e47-47e8-bb70-e29cdd3415ba
+CPO,Volume Button Cosmetic,Cosmetic-31,25,12,damaged,D,['all'],5b9051b3-e498-4f2a-90b4-aa78dcd5a2a9
+CPO,Volume Button Cosmetic,Cosmetic-31,25,12,discoloration,D,['all'],e1b865ac-9750-4eec-989c-3dd9f5df0c3a
+CPO,Volume Button Cosmetic,Cosmetic-31,25,12,minor,D,['all'],82d463af-07a1-4b12-b577-71ffd6ea004e
+CPO,Volume Button Cosmetic,Cosmetic-31,25,12,major,D,['all'],fdd373ae-fc1c-44ce-be2d-8f8c8dca4af4
+CPO,05-Bezel Cosmetic Failure,Cosmetic-5,2,4,major,A,['all'],e0819a96-edc5-48a0-ac1d-c1a311a8f828
+CPO,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,deep scratch,A,['all'],5e9d0653-5db2-4a54-8075-bae64e489bf1
+CPO,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,damaged,A,['all'],543b11d4-a565-4db5-8682-e1b061e86f70
+CPO,05-Bezel Cosmetic Failure,Cosmetic-5,2,1,major,C,['all'],331108b4-5526-4a95-b748-5e60cd0d2e66
+CPO,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,damaged,C,['all'],59f063a1-761f-4a9d-a68a-049a91202abc
+CPO,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,discoloration,C,['all'],85ba803e-6178-49de-a842-66c2c8942b19
+CPO,05-Bezel Cosmetic Failure,Cosmetic-5,2,12,damaged,C,['all'],c8db725b-4625-4764-82b3-da9e732edee2
+CPO,05-Bezel Cosmetic Failure,Cosmetic-5,2,12,discoloration,C,['all'],d4f027f2-c3af-4f0b-b8b6-fae32244ad42
+CPO,05-Bezel Cosmetic Failure,Cosmetic-5,2,12,minor,C,['all'],4f233948-fc61-4e36-ad1b-4732ab1bb56f
+CPO,05-Bezel Cosmetic Failure,Cosmetic-5,2,12,major,C,['all'],8ac3efad-a6a6-4fb6-8e23-1224884fcb18
+CPO,Charging Port Wrong Color,Cosmetic-13A,7,0,discoloration,B,[12],9d233856-8051-4202-bc26-e493cfbec590
+CPO,Back Cover Cosmetic Failure,Cosmetic-2,3,12,major,B,['all'],565a5e29-3489-4812-960e-1bc52cbd8588
+CPO,Back Cover Cosmetic Failure,Cosmetic-2,3,0,discoloration,B,['all'],f05a50f5-c836-436d-9383-9d871a7b56c3
+CPO,Back Cover Cosmetic Failure,Cosmetic-2,3,0,damaged,B,['all'],8b3873b1-c150-495b-8e0d-99cf05ca26e3
+CPO,Back Cover Cosmetic Failure,Cosmetic-2,3,0,deep scratch,B,['all'],4ba72ec8-274e-493b-a353-1ccf436e5ea6
+CPO,Back Cover Cosmetic Failure,Cosmetic-2,3,40,damaged,B,['all'],0d7147cd-5c52-4d2a-8171-34d17c1bb609
+CPO,Back Cover Cosmetic Failure,Cosmetic-2,3,40,discoloration,B,['all'],be498edd-da30-4f73-9937-475da27a0499
+CPO,Back Cover Cosmetic Failure,Cosmetic-2,3,40,deep scratch,B,['all'],c13bee07-6fba-45b2-9395-1616c124b93e
+CPO,Back Cover Cosmetic Failure,Cosmetic-2,3,40,major,B,['all'],589e14a4-5ae1-4615-b8aa-b640307194c2
+CPO,Back Cover Cosmetic Failure,Cosmetic-2,3,40,minor,B,['all'],38ab9e69-0e51-4dac-9dad-fc49b4d9de2d
+CPO,Back Cover Cosmetic Failure,Cosmetic-2,3,0,damaged,D,['all'],59594a74-d251-4c04-81b9-d7a17902ffe1
+CPO,Back Cover Cosmetic Failure,Cosmetic-2,3,0,discoloration,D,['all'],3332870f-3071-4833-897c-3d430e0f92ce
+CPO,Back Cover Cosmetic Failure,Cosmetic-2,3,2,major,D,['all'],9b8fc5f8-24c0-49d8-9087-f6d5c58324a1
+CPO,Back Cover Cosmetic Failure,Cosmetic-2,3,12,damaged,D,['all'],851d64c3-c24b-478a-acb0-4ef3e7145952
+CPO,Back Cover Cosmetic Failure,Cosmetic-2,3,12,discoloration,D,['all'],879b6f4f-5578-4aa2-9728-79a0e267a886
+CPO,Back Cover Cosmetic Failure,Cosmetic-2,3,12,minor,D,['all'],5843d13a-836d-459b-8036-d2f5ec13b761
+CPO,Back Cover Cosmetic Failure,Cosmetic-2,3,12,major,D,['all'],4edabb1d-a46c-4aa0-96ba-2caf38b22d04
+CPO,L1-Rear Camera Cosmetic Damage,Cosmetic-24O,4,1,major,C,[3],c788231e-5095-4f5a-afe0-a9d02b641f87
+CPO,L1-Rear Camera Cosmetic Damage,Cosmetic-24O,4,0,damaged,C,[3],5a236820-6697-4543-84a1-b8011508200c
+CPO,L1-Rear Camera Cosmetic Damage,Cosmetic-24O,4,12,damaged,C,['all'],5c9cacb1-d666-44cc-bfd6-e098b73ca3a4
+CPO,L1-Rear Camera Cosmetic Damage,Cosmetic-24O,4,12,discoloration,C,['all'],d5eb629c-5d9c-46c6-afa6-f6ed2a7a43d8
+CPO,L1-Rear Camera Cosmetic Damage,Cosmetic-24O,4,12,minor,C,['all'],06a42b18-bc33-4ca0-814f-bbb5a199d655
+CPO,L1-Rear Camera Cosmetic Damage,Cosmetic-24O,4,12,major,C,['all'],e05f3629-2d10-48fa-812e-72725ce45dd6
+CPO,L1-Front Camera Cosmetic Damage,Cosmetic-13N,14,1,major,C,[0],3e830cbe-3f96-4acf-b4af-fea2b6a10acd
+CPO,L1-Front Camera Cosmetic Damage,Cosmetic-13N,14,0,damaged,C,[0],1161b6f8-4311-4580-a6bb-f15899933c26
+CPO,L1-Front Camera Cosmetic Damage,Cosmetic-13N,14,12,damaged,C,['all'],63b0b8f0-f5b7-42b4-a315-7da2a323a55b
+CPO,L1-Front Camera Cosmetic Damage,Cosmetic-13N,14,12,discoloration,C,['all'],c80862f7-92bf-4299-8398-591c9addb4e7
+CPO,L1-Front Camera Cosmetic Damage,Cosmetic-13N,14,12,minor,C,['all'],595de4fd-2f15-4922-8eb5-384de36d6983
+CPO,L1-Front Camera Cosmetic Damage,Cosmetic-13N,14,12,major,C,['all'],2c979e14-88e8-4be2-8ded-b3cd8d63a7c4
+NEW,L1-LCD Cosmetic Damage,Cosmetics-16,1,0,damaged,AA,['all'],fa74aa1c-6676-4be3-83ba-cbab763d33c8
+NEW,L1-LCD Cosmetic Damage,Cosmetics-16,1,0,deep scratch,AA,['all'],81670e0f-427c-4a0d-88ef-8a1033768c1b
+NEW,L1-LCD Cosmetic Damage,Cosmetics-16,1,0,level 1,AA,['all'],d5d5961f-4487-4cd8-bee2-64acb87f2b8d
+NEW,L1-LCD Cosmetic Damage,Cosmetics-16,1,0,level 2,AA,['all'],9005fcd6-c4bd-4c7a-a20a-13bf415131b3
+NEW,L1-LCD Cosmetic Damage,Cosmetics-16,1,0,discoloration,AA,['all'],a93e0c93-3398-48c5-9695-a97429818399
+NEW,L1-LCD Cosmetic Damage,Cosmetics-16,1,0,light scratch,AA,['all'],c96658ae-bed8-4b9b-bd09-0bdf9c592133
+NEW,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,damaged,A,['all'],1ec61782-8bae-40e0-bec5-bc4225d1519a
+NEW,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,deep scratch,A,['all'],975637f8-5cbb-4a7b-8529-f094ca9e6528
+NEW,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,level 1,A,['all'],5e77382e-7e10-4832-987b-e83654dbaca5
+NEW,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,level 2,A,['all'],e6e15fca-8054-4886-b251-1612b55d8b13
+NEW,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,discoloration,A,['all'],e1b16479-4a21-46c1-8f89-27e2a335dc1e
+NEW,05-Bezel Cosmetic Failure,Cosmetic-5,2,0,light scratch,A,['all'],8263be98-a466-4b2b-945e-d744d493d5b8
+NEW,Back Cover Cosmetic Failure,Cosmetic-2,3,0,damaged,B,['all'],c55e4543-a52b-42c5-bfe3-1cfd90d9f7c7
+NEW,Back Cover Cosmetic Failure,Cosmetic-2,3,0,deep scratch,B,['all'],5583e096-7a67-4eb7-8083-654a12713093
+NEW,Back Cover Cosmetic Failure,Cosmetic-2,3,0,level 1,B,['all'],3043cb32-7cc0-4997-bb45-046802b17986
+NEW,Back Cover Cosmetic Failure,Cosmetic-2,3,0,level 2,B,['all'],a74b3672-b779-4762-91e3-d04438563dce
+NEW,Back Cover Cosmetic Failure,Cosmetic-2,3,0,discoloration,B,['all'],946a59e5-35b7-42c1-97a3-8eba4e589598
+NEW,Back Cover Cosmetic Failure,Cosmetic-2,3,0,light scratch,B,['all'],ad939287-6e5b-4130-828e-01e2ca7fffce
